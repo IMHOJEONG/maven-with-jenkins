@@ -34,7 +34,7 @@ public class SampleController {
 //        System.out.println("price: " + calcMoney);
         int button;
         System.out.println("사용자가 가지고 있는 액수 : " + userMoney);
-
+        
         while (!end) {
             printMenu();
             button = in.nextInt();
@@ -47,6 +47,7 @@ public class SampleController {
                 totalPrice += calcTotalPrice(1000, 1);
                 userMoney = calcUserMoney(userMoney, totalPrice);
             }
+            // This part is revised by IMHOJEONG 
             else if (button == 2) {
                 totalPrice += calcTotalPrice(1500, 1);
                 userMoney = calcUserMoney(userMoney, totalPrice);
