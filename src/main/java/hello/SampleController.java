@@ -34,6 +34,7 @@ public class SampleController {
 //        System.out.println("price: " + calcMoney);
         int button;
         System.out.println("사용자가 가지고 있는 액수 : " + userMoney);
+        System.out.println("사용자가 가지고 있는 액수 : " + userMoney);
 
         while (!end) {
             printMenu();
